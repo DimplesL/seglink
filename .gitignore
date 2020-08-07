@@ -6,7 +6,7 @@ __pycache__/
 *.project
 # C extensions
 *.so
-
+.ideal/
 # Distribution / packaging
 .Python
 env/
