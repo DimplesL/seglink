@@ -2,43 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93e2628-2846-4255-bd0c-ee4f43c2d1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/arg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/caffe_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/cmd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/color.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/coord.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/dec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/dtype.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/event.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/io_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/log.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/mask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/math/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/math/box2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/math/box3d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/math/line2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/ml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/mod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/neighbour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/np.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/obj.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/plt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/proc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/progress_bar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/rand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/statistic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/stereo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/str_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/t.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/tf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/thread_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/time_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/video.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pylib" beforeDir="false" afterPath="$PROJECT_DIR$/pylib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pylib/src/util/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pylib/src/util/arg.py" beforeDir="false" />
@@ -86,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_seglink.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
               <folding>
                 <element signature="e#81#99#0" expanded="true" />
               </folding>
@@ -98,7 +61,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nets/seglink_symbol.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nets/seglink_zt.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1216">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gen</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,6 +106,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/train_seglink.py" />
+        <option value="$PROJECT_DIR$/nets/seglink_symbol.py" />
+        <option value="$PROJECT_DIR$/nets/seglink_zt.py" />
+        <option value="$PROJECT_DIR$/tf_extended/seglink.py" />
       </list>
     </option>
   </component>
@@ -128,11 +130,6 @@
             <path>
               <item name="seglink" type="b2602c69:ProjectViewProjectNode" />
               <item name="seglink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="seglink" type="b2602c69:ProjectViewProjectNode" />
-              <item name="seglink" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -177,17 +174,17 @@
       <updated>1594115154650</updated>
       <workItem from="1594115156116" duration="2568000" />
       <workItem from="1595919428055" duration="61000" />
+      <workItem from="1596797794161" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2629000" />
+    <option name="totallyTimeSpent" value="3150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-362" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
+    <frame x="1440" y="-362" width="2560" height="1417" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25178713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377283" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -201,7 +198,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35176653" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.35176653" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32949308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -217,9 +214,39 @@
     <entry file="file://$PROJECT_DIR$/train_seglink.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
           <folding>
             <element signature="e#81#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tf_extended/seglink.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="513" column="7" selection-start-line="513" selection-start-column="4" selection-end-line="513" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nets/seglink_zt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1216">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nets/seglink_symbol.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="83" column="49" lean-forward="true" selection-start-line="83" selection-start-column="49" selection-end-line="83" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
